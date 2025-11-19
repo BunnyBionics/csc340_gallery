@@ -1,0 +1,3 @@
+/home/morgan/csc340/gallery/cmake-build-debug/CMakeFiles/gallery.dir
+/home/morgan/csc340/gallery/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/morgan/csc340/gallery/cmake-build-debug/CMakeFiles/rebuild_cache.dir

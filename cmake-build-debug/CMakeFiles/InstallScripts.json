@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/morgan/csc340/gallery/cmake-build-debug/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
