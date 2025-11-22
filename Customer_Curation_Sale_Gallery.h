@@ -35,7 +35,7 @@ public:
     //default constructor: ID(-1),name("na"),email("na"),address("na")
     Customer();
     //parameterized constructor: ID(theID),name(theName),email(theEmail), address("theAddr")
-    Customer(int theID, string theName, string theEmail, const string theAddr);
+    Customer(int theID, string theName, string theEmail, string theAddr);
 
     //accessors
     //returns a customer's ID
@@ -224,7 +224,6 @@ public:
     //adds a customer to the customerList. Make sure that (1) this customer is not already on customerList by checking their name & email combination; and (2) this customer has a valid ID by generating a unique ID. Do nothing if the artist is already on the list.Do nothing if this customer is already on the list.
     //returns customerID.
     int addCustomer(Customer customer);
-
 
     //artwork curation: curate a new piece of artwork for the gallery. newItem.ID, newItem.artistID, and artist.ID are all set to -1 (not available) initially. As a result, you’ll need to assign this newItem a unique ID. Check if the artist is already on the artistList using their name and email. If new, assign this artist a unique ID and add them to the artistList. If not new, retrieve their ID from the artistList. You will also need to update the artworkListCurated and the artworkListForSale. Finally, you will need to update the curationRecords to include this new curation.
     void curateArtwork(Artwork newItem, Artist artist);

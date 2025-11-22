@@ -1,8 +1,19 @@
 # ninja log v6
-0	18	1763550531465906278	build.ninja	756ea7e1feacd72c
-0	18	1763550531465906278	/home/morgan/csc340/gallery/cmake-build-debug/cmake_install.cmake	756ea7e1feacd72c
-0	8	1763550531469996899	CMakeFiles/gallery.dir/Artwork_Artist.cpp.o	87cfc14e0009cb4a
-1	8	1763550531474087521	CMakeFiles/gallery.dir/util_date_uniqueIDs.cpp.o	ef71e956ab9ce0fb
-0	8	1763550531469996899	CMakeFiles/gallery.dir/Customer_Curation_Sale_Gallery.cpp.o	624f47b6b1d44033
-1	157	1763550567281764864	CMakeFiles/gallery.dir/main.cpp.o	c57d0ee1fe44e1d
-158	319	1763550567437176747	gallery	4ff3d32ac3c7ae62
+0	18	1763625207931777050	build.ninja	756ea7e1feacd72c
+0	18	1763625207931777050	/home/morgan/csc340/gallery/cmake-build-debug/cmake_install.cmake	756ea7e1feacd72c
+15	421	1763771798722523383	CMakeFiles/gallery.dir/util_date_uniqueIDs.cpp.o	1642384049c72fe6
+603	767	1763782178554598866	gallery	4ff3d32ac3c7ae62
+14	422	1763771798722523383	CMakeFiles/gallery.dir/Artwork_Artist.cpp.o	5cb1aa6394e5545a
+1	880	1763780746587921589	CMakeFiles/gallery.dir/Customer_Curation_Sale_Gallery.cpp.o	e59277b8fc042df6
+1	603	1763782177951293140	CMakeFiles/gallery.dir/main.cpp.o	c69ee4b64adb5919
+2	578	1763783257432856415	CMakeFiles/gallery.dir/main.cpp.o	c69ee4b64adb5919
+2	849	1763783257432856415	CMakeFiles/gallery.dir/Customer_Curation_Sale_Gallery.cpp.o	e59277b8fc042df6
+849	1031	1763783258283139046	gallery	4ff3d32ac3c7ae62
+1	424	1763783265227191247	CMakeFiles/gallery.dir/main.cpp.o	c69ee4b64adb5919
+424	591	1763783265646205037	gallery	4ff3d32ac3c7ae62
+1	422	1763783271197100988	CMakeFiles/gallery.dir/main.cpp.o	c69ee4b64adb5919
+422	590	1763783271616114898	gallery	4ff3d32ac3c7ae62
+1	406	1763783292776671351	CMakeFiles/gallery.dir/main.cpp.o	c69ee4b64adb5919
+406	571	1763783293179084221	gallery	4ff3d32ac3c7ae62
+0	442	1763783337003653345	CMakeFiles/gallery.dir/main.cpp.o	c69ee4b64adb5919
+442	606	1763783337447562253	gallery	4ff3d32ac3c7ae62

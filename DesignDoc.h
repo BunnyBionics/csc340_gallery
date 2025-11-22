@@ -13,13 +13,11 @@
 
 NS_ARTGALLERY::curateArtwork(Artwork newItem, Artist artist);
 A new Curation is created for the artwork
-create a new Artwork
 assign a unique ID to the Artwork
 The Artwork is added to the list of artworksCurated
 The Artwork is added to the list of artworksForSale
 assign the new Artwork ID to the Curation's Artwork ID
 If the Artist isn't on artistList using name and email:
-    create a new Artist.
     assign a unique ID to the Artist
     add the Artist to artistList
 else
@@ -69,18 +67,18 @@ Your to-do #3:  describe your algorithm in pseudo code for the following data
  actual number of artworks of the corresponding artType.
 
 NS_ARTGALLERY::genArtworksReport(ReportType reportType);
-create a vector of pairs of strings and ints
+create a vector to hold the pairs of {category, quantity}
 if reportType is artType:
-    for (ArtType medium: [painting, photography, drawing, sculpture, other]):
-        create Pair(toStr_ArtType(medium), std::count_if(artworksCurated.begin(), artworksCurated.end(), [](Artwork art) {return art.type == medium;});
+    for (ArtType medium of [painting, photography, drawing, sculpture, other]):
+        create Pair{medium, count_if(artsCurated, art.medium == medium)}
         add Pair to report vector
 else if reportType is artStyle:
-    for (ArtStyle art_style: [fineArt, abstract, modern, popArt, other]):
-        create Pair(toStr_ArtStyle(art_style), std::count_if(artworksCurated.begin(), artworksCurated.end(), [](Artwork art) {return art.style == art_style;});
+    for (ArtStyle art_style of [fineArt, abstract, modern, popArt, other]):
+        create Pair{art_style, count_if(artsCurated, art.style == art_style)}
         add Pair to report vector
 else if reportType is artSubject:
-    for (ArtSubject art_subject: [nature, portrait, animal, cartoon, other]):
-        create Pair(toStr_ArtSubject(art_subject), std::count_if(artworksCurated.begin(), artworksCurated.end(), [](Artwork art) {return art.subject == art_subject;});
+    for (ArtSubject art_subject of [nature, portrait, animal, cartoon, other]):
+        create Pair{art_subject, count_if(artsCurated, art.subject == art_subject)}
         add Pair to report vector
 return report vector
 
